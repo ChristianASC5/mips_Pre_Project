@@ -13,4 +13,8 @@ main:
   
   syscall
   
+  lb $t1, 2($a0)
+  addi  $t1, $t1, -32
+  sb  $t1,  2($a0)
   
+  syscall
