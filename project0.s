@@ -18,3 +18,7 @@ main:
   sb  $t1,  2($a0)
   
   syscall
+
+  li $v0, 10
+  
+  syscall
